@@ -7,8 +7,8 @@ import TrollFace from "../assets/troll-face.svg";
 export function Header() {
   return (
     <header>
-      <img src={TrollFace} alt="Troll Face Meme" />
-      <h1>meme generator</h1>
+      <img className="logo" src={TrollFace} alt="Troll Face Meme" />
+      <h2>meme generator</h2>
     </header>
   );
 }

@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap");
+
 :root {
   --primary: #ffffff;
   --shape: #672280;
   --shape-light: #a626d3;
   --text: #0d0d0d;
   --detail: #d5d4d8;
+
+  --primary-font: "Karla", sans-serif;
 }
