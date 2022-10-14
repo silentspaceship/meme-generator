@@ -1,0 +1,46 @@
+@use "../theme.scss";
+
+header {
+  display: flex;
+
+  height: 4rem;
+  width: auto;
+
+  align-items: center;
+
+  background-image: linear-gradient(
+    to right,
+    theme.$shape-color,
+    theme.$shape-light-color
+  );
+  padding: 0 4rem;
+}
+
+.logo {
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.logo:hover {
+  animation: rotate 0.7s infinite linear;
+}
+
+h2 {
+  font-size: 1.25rem;
+  letter-spacing: -1.25px;
+  color: theme.$primary-color;
+
+  padding-bottom: 0.1875rem;
+
+  text-shadow: -0.5px 0.5px 0 theme.$text-color, 0.5px 0.5px 0 theme.$text-color,
+    0.5px -0.5px 0 theme.$text-color, -0.5px -0.5px 0 theme.$text-color;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

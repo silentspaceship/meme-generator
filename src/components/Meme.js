@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "./Meme.css";
+import "./Meme.scss";
 
 import memesData from "../memesData";
 

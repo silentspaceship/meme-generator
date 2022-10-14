@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Header.css";
+import "./Header.scss";
 
 import TrollFace from "../assets/troll-face.svg";
 
