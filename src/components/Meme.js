@@ -61,8 +61,12 @@ export function Meme() {
             src={meme.randomImage}
             alt={memesArray.name}
           />
-          <h2 className="meme-text top">{meme.topText}</h2>
-          <h2 className="meme-text bottom">{meme.bottomText}</h2>
+          {meme.randomImage !== "" && (
+            <h2 className="meme-text top">{meme.topText}</h2>
+          )}
+          {meme.randomImage !== "" && (
+            <h2 className="meme-text bottom">{meme.bottomText}</h2>
+          )}
         </div>
       </div>
     </main>
