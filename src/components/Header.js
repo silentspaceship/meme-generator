@@ -8,7 +8,7 @@ export function Header() {
   return (
     <header>
       <img className="logo" src={TrollFace} alt="Troll Face Meme" />
-      <h2>meme generator</h2>
+      <h2 className="title">meme generator</h2>
     </header>
   );
 }
