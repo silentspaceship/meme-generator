@@ -17,8 +17,6 @@ export function Meme() {
       .then((data) => setAllMemes(data.data.memes));
   }, []);
 
-  console.log(allMemes);
-
   function handleGetMemeImage() {
     const randomNumber = Math.floor(Math.random() * allMemes.length);
     const url = allMemes[randomNumber].url;
